@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  php:
+    build:
+      ./web
+    ports:
+      - 8080:80
+    volumes:
+      - ./web:/var/www/html
+    depends_on:
+      - mydb
+  mydb:
+    image: mariadb:latest
+    restart: always
+    environment:
+     MARIADB_ROOT_PASSWORD: root
+    volumes:
+        - ./sql:/docker-entrypoint-initdb.d
+        - db_volume:/var/lib/mysql
+volumes:
+    db_volume:
+       
