@@ -7,6 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Сортировка</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
     <style>
         body {
             font-size: 24px;

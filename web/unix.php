@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Команды</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
     <style>
         body {
             font-size: 18px;

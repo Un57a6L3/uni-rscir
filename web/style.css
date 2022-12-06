@@ -1,3 +1,6 @@
+html, body, p {
+    font-family: 'Segoe UI', Helvetica;
+}
 /* внешние границы таблицы серого цвета толщиной 1px */
 table {
     border: 1px solid grey;

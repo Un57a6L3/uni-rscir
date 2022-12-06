@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Фигуры</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
     <style>
         svg>rect,
         svg>polygon,
